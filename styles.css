@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700&display=swap");
+body {
+  margin: 0 auto;
+  background: rgb(246, 246, 254);
+  font-family: "Montserrat", sans-serif;
+}
+.hide-check:checked ~ .checkbox-anim .switcher {
+  left: -3px;
+}
+.our-pricing {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  color: rgb(109, 112, 141);
+}
+.period {
+  display: flex;
+  justify-content: center;
+  color: rgb(179, 181, 198);
+}
+.switch-container {
+  width: 25px;
+  height: 10px;
+  border-radius: 5px;
+  margin-right: 6px;
+  position: relative;
+  top: -2px;
+}
+.annually,
+.monthly {
+  font-size: 10px;
+}
+.switch {
+  position: relative;
+  top: 3px;
+  left: 3px;
+  width: 25px;
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  border-radius: 20px;
+  color: white;
+}
+.switcher {
+  position: absolute;
+  left: 10px;
+  top: 1px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  transition: left 0.3s ease;
+  background-color: white;
+}
+
+.switch-content {
+  position: relative;
+  left: 5px;
+  width: 25px;
+  height: 10px;
+}
+.checkbox-anim {
+  cursor: pointer;
+}
+
+.hide-check {
+  display: none;
+}
+
+.checkbox-anim {
+  cursor: pointer;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main-card,
+.side-card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  height: 0.1px;
+  background: white;
+}
+
+.main-card {
+  height: 230px;
+  background-image: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+}
+button.more {
+  margin-top: 10px;
+  color: rgb(105, 111, 221);
+  border: none;
+  border-radius: 2px;
+  font-size: 8px;
+  height: 20px;
+  width: 100px;
+  font-weight: 500;
+  letter-spacing: 0.3ch;
+}
+.plan {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.info {
+  margin: auto 0;
+  font-size: 8px;
+}
+.block-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
+  width: 100px;
+}
+.price {
+  font-weight: bold;
+  margin: 15px 0;
+  font-size: 30px;
+}
