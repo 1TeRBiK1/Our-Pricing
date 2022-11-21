@@ -196,3 +196,22 @@ button.more {
     margin-top: 25px;
   }
 }
+@media (max-width: 400px) {
+  .our-pricing {
+    font-size: 36px;
+  }
+  .annually,
+  .monthly {
+    font-size: 22px;
+  }
+  .main-card,
+  .side-card {
+    width: 290px;
+  }
+  .price{
+    font-size: 60px;
+  }
+  .switch-container {
+    top: -2px;
+  }
+}
